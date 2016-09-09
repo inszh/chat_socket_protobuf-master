@@ -1,0 +1,22 @@
+#ifndef  _ENVIRONMENT_
+#define  _ENVIRONMENT_
+
+#define  _ENV_RUN_
+#define _CONN_NEW_SHM_
+#define _CONN_REMOTE_
+#define _OVERLOAD_PROTECT_ 
+
+
+#define __C2__
+
+#define C2_INT32 int
+#define C2_TIME int
+#define C2_SIZE unsigned int
+
+#define C2_PRIu32 "u"
+#define C2_PRId32 "d"
+#define C2_PRIx32 "x"
+#define C2_SCNu32 "u"
+#define C2_SCNd32 "d"
+
+#endif
